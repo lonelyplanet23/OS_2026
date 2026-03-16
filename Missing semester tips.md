@@ -75,9 +75,7 @@ chmod u=r,g=r,o= stderr.txt
 
 + `git checkout`
   + `git checkout lab<x>` 切换分支
-+ **多文件一起编译** `gcc <文件名1> <文件名2> ... -o <可执行程序名>`
-+ **头文件在其他文件夹** `gcc -I <头文件所在目录> <文件名> -o <可执行程序名>`
-
+S
 ## Bash shell
 + 命令行环境与解释器，类似于win中的批处理文件.bat
 `#!/bin/bash`选择bash解释器
