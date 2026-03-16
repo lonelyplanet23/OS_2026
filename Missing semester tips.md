@@ -75,7 +75,7 @@ chmod u=r,g=r,o= stderr.txt
 
 + `git checkout`
   + `git checkout lab<x>` 切换分支
-
+S
 ## Bash shell
 + 命令行环境与解释器，类似于win中的批处理文件.bat
 `#!/bin/bash`选择bash解释器
