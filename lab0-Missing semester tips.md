@@ -21,6 +21,18 @@ target: dependencies
 + 多行输出连续行数 `sed -n '<起始行>,<终止行>p' <文件名>`
 + 多行输出非连续 `sed -n '<行1>p; <行2>p....' <文件名>`
 
+### awk 指令
+表格化文档，以空格或者指定符号分割，输出某行某列
+`awk options 'pattern {action}' file`
+假设我们有一个叫 student.txt 的文件，内容如下：
+> 张三 20岁 计算机系
+默认切分（空格）：
+  + `awk '{print $1}' student.txt` $\rightarrow$ 输出 第一列 张三
+  + `awk '{print $3}' student.txt` $\rightarrow$ 输出 第三列 计算机系
+
+如果想要指定切分
++ 如，冒号前的  `awk -F":" '{print $1}' file`
++ 
 ## Ctags
 + 快速跳转到函数/类/结构体定义处。
 + 在目录下运行`ctags -R *`
