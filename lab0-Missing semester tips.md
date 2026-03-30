@@ -1,3 +1,5 @@
+## vscode ssh远程连接
+注意Server Install Path的命名如`os-lab`是否漏了`-`
 ## gcc编译器
 + 将两个C源文件编译成一个可执行文件：`gcc foo.c hello.c`
 + 库文件链接：`gcc -I <头文件路径> foo.c hello.c -o hello `
