@@ -1,3 +1,5 @@
+## vscode ssh远程连接
+注意Server Install Path的命名如`os-lab`是否漏了`-`
 ## lab0 hints
 **注意不能在vim打开的同时，提交文件，会有隐形文件干扰**
 ## gcc编译器
