@@ -1,3 +1,5 @@
+## lab0 hints
+**注意不能在vim打开的同时，提交文件，会有隐形文件干扰**
 ## gcc编译器
 + 将两个C源文件编译成一个可执行文件：`gcc foo.c hello.c`
 + 库文件链接：`gcc -I <头文件路径> foo.c hello.c -o hello `

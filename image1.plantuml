@@ -1,0 +1,20 @@
+@startuml Makefile 编译依赖树
+skinparam linetype ortho
+skinparam node {
+  BackgroundColor #f0f8ff
+  BorderColor #2c6eaf
+}
+title Makefile 编译依赖树
+
+[run] --> [casegen]
+[run] --> [ver1]
+[run] --> [ver2]
+
+[casegen] --> [casegen.c]
+
+[ver1] --> [公共文件\n(main.c/post_calc.c/common.h)]
+[ver1] --> [calc1.c]
+
+[ver2] --> [公共文件\n(main.c/post_calc.c/common.h)]
+[ver2] --> [calc2.c]
+@enduml
