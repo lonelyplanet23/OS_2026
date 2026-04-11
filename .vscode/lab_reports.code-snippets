@@ -2,7 +2,7 @@
 	// OS 实验报告模板（Markdown）
 	"OS Lab Report Template": {
 		"scope": "markdown",
-		"prefix": "oslabre",
+		"prefix": "oslab",
 		"body": [
 			"# Lab$1 实验报告",
 			"",
