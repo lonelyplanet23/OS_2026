@@ -159,6 +159,9 @@
 - **原因：** 设置 COW 保护后，任何写操作都会立即触发 TLB Mod 异常，如果先设置 COW 再注册处理函数，中间有一个**窗口**，此时异常触发了但没有处理函数，直接 panic
 - **之后设置会：** 出现竞态条件！`duppage` 取消了 PTE_D → 还没来得及 `sys_set_tlb_mod_entry` → 父进程写了那个页 → 触发 TLB Mod → 处理函数为空 → `panic("TLB Mod but no user handler registered")`
 
+
+### COW写时复制异常流程
+![2](assets/image-12.png)
 ---
 
 ## 二、难点分析与实验体会

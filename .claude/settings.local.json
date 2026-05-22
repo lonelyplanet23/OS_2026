@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mineru-open-api flash-extract *)"
+      "Bash(mineru-open-api flash-extract *)",
+      "Skill(pdf-converter)",
+      "Skill(pdf-converter:*)"
     ]
   }
 }
