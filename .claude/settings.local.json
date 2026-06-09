@@ -3,7 +3,8 @@
     "allow": [
       "Bash(mineru-open-api flash-extract *)",
       "Skill(pdf-converter)",
-      "Skill(pdf-converter:*)"
+      "Skill(pdf-converter:*)",
+      "Bash(python -)"
     ]
   }
 }
