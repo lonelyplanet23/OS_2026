@@ -4,7 +4,10 @@
       "Bash(mineru-open-api flash-extract *)",
       "Skill(pdf-converter)",
       "Skill(pdf-converter:*)",
-      "Bash(python -)"
+      "Bash(python -)",
+      "Bash(pdftotext -layout d:/OS_2026/Slides/6.1磁盘管理.pdf d:/OS_2026/Slides/6.1磁盘管理.txt)",
+      "Bash(pdftotext -layout d:/OS_2026/Slides/6.2文件系统.pdf d:/OS_2026/Slides/6.2文件系统.txt)",
+      "Bash(mineru-open-api extract *)"
     ]
   }
 }
